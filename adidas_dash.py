@@ -12,7 +12,7 @@ st.set_page_config(page_title="Adidas United States Dashboard!!!",page_icon=":ba
 st.logo('adidas-logo.jpg')
 st.title(":bar_chart: Adidas United States Dashboard!!!")
 
-df=pd.read_excel('Adidas.xlsx')
+df=pd.read_excel(r"Adidas.xlsx")
 df['Year']=df['InvoiceDate'].dt.year
 df['Month']=df['InvoiceDate'].dt.month
 
