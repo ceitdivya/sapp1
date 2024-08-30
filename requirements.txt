@@ -3,6 +3,5 @@ joblib
 pandas
 numpy
 plotly
-warnings
 datetime
 geopy
