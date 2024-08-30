@@ -1,6 +1,5 @@
 streamlit
 joblib
-time
 pandas
 numpy
 plotly
